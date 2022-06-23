@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "automation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js",
+    "start": "node --experimental-modules src/index.mjs "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "inquirer": "^9.0.0",
+    "nodemon": "^2.0.16",
+    "openai": "^3.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "wbm": "^1.1.16",
+    "whatsapp-web.js": "^1.16.7"
+  }
+}
